@@ -1,0 +1,658 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*HEADER LA PARTE VERDE*/
+.head-green{
+    background-color: #66B47A;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 50px 0 50px;
+}
+.head-icon{
+    display: flex;
+    gap: 15px
+}
+.head-link{
+    color:#fff;
+    text-decoration: none;
+}
+.box-head-link{
+    display: flex;
+    gap: 50px;
+}
+.box1-head-link{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    
+}
+
+/*HEADER DEL LOGO, LA PARTE BLANCA */
+.nav-logo{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 20px;
+
+}
+
+/* SECCION DEL LOGO OFFERS Y REQUEST*/
+.section-logo-links{
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-logo-links{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.logo-links-arrow{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+
+}
+.logo-links{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/*SECCION DEL BUSCADOR Y DE LOS BOTONES DEL NAV*/
+.box-search-buttom{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-Search{
+    display: flex;
+    width: 100%;
+    justify-content:end ;
+    align-items: center;
+    
+}
+.input-principal{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #cdcdcd;
+}
+.svg-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #66B47A;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #cdcdcd;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.box-buttom-nav{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+.buttom-nav{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*SECCION DE LOS BOTONES VERDES Y DEL IDIOMA*/
+
+.box3-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-right: 30px;
+}
+.box3-bottom button{
+    color: #fff;
+    background-color: #66B47A;
+    border: none;
+   padding: 20px 20px;
+   border-radius: 10px;
+}
+/*SECCION DEL SLIDER PRINCIPAL*/
+.text-c{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 200px;
+    left: 220px;
+    font-size: 80px;
+}
+.layer1{
+    background-color: rgba(33, 34, 34, 0.468);
+    width: 100vw;
+    height:100vh ;
+    position: absolute;
+
+}
+
+
+/*SECCIONES SOBRE EL SLIDER*/
+
+/*SECCION VERDE*/
+.box-green{
+    background-color: #66B47A;
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.49);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.box-green p{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: absolute;
+    left: 30%;
+}
+/*SECCION CIRCULO BLANCO*/
+.box-green-white{
+    background-color: #fff;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    left: -20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    width: 140px;
+    height: 140px;
+}
+/*SECCION BLANCA*/
+.box-white{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    left: 65%;
+    top: 105%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.49);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #66B47A;
+}
+.box-white .p1{
+    font-size: 20px;
+
+}
+.box-white .p2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 385px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid #66B47A;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 20px 0;
+}
+.box-white .p3{
+    color:#fff;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    z-index: 3;
+    font-weight: bold;
+
+}
+
+/*SECCION DE BOTONES BUY Y SELL*/
+.section-option{
+    height: 30%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 20% ;
+    flex-wrap: wrap;
+    
+    
+}
+.section-option-text{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.section-option-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap:80px;
+
+}
+.section-option-a a{
+    background-color: #cdcdcd;
+    padding: 16px 100px ;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    position: relative;
+    font-size: 35px;
+}
+
+
+.buy-sell-white{
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 11%;
+    left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* SECCION DE: You can’t find your product*/
+
+.section-option-YC{
+    display: flex;
+    flex-direction: row;
+    background-color: #66B47A;
+    justify-content: space-evenly;
+    height: auto;
+    position: relative;
+}
+.section-option-YC-1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap:40px;
+}
+.section-option-YC-text{
+    font-size: 4vw;
+    color: #fff;
+    font-weight: bold;
+}
+.section-option-YC-a{
+    text-decoration: none;
+    font-size: 60%;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 30%;
+    text-align: center;
+    background-color: #232F3D;
+
+}
+.triangle2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 20rem solid transparent;
+    border-right: 20rem solid #fff;
+
+}
+.text-free{
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    color:#66B47A;
+    font-size: 3vw;
+    font-weight: bold;
+    transform: rotate(45deg); 
+    white-space: nowrap;
+
+}
+
+/* SECCION DE: Increase your visibility will multiply your contacts*/
+
+.section-option-IYV{
+    display: flex;
+    background-color: #EEEEEE;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    position: relative;
+    gap:100px;
+    padding: 70px 0px;
+
+}
+.section-option-IYV div{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+
+}
+.section-option-IYV-text{
+    font-size: 4vw;
+    color: #000000;
+    font-weight: bold;
+
+}
+.section-option-IYV img{
+    width: 20vw;
+}
+
+/* -------------Reseñas---------------*/
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.reviews-h2{
+    margin-left: 8%;
+}
+.reviews-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.reviews-section{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+.reviews-section-div1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.img-reviews{
+    width: 80px;
+    height: 80px;
+    background-color: #232F3D;
+    border-radius: 20px;
+    
+}
+.reviews-section-text1{
+    display: flex;
+    flex-direction: column;
+
+}
+.text-reviews-1{
+    color: #232F3D;
+    font-weight: bold;
+
+}
+.text-reviews-2{
+    color: #878b8b;
+}
+.p-reviews{
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* seccion: WHY SHOULD CHOOSE  US*/
+.WSCU{
+    display: flex;
+    flex-direction: column;
+}
+.WSCU h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.WSCU-sections{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-bottom: 70px;
+    
+}
+.WSCU-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.WSCU-section-icon{
+    background-color:#66B47A  ;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    
+}
+.WSCU-section h3{
+    font-weight: bold;
+}
+/*-------------- seccion: Contact-----------------*/
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    margin-top: 70px;
+    background-color: #F8F9FA;
+    padding: 80px 0px;
+}
+.contact-section1{
+    width: 500px;
+    height: 600px;
+    background-color: #F8F9FA;
+    padding: 50px 50px;
+    margin-bottom: 70px;
+}
+.contact-section2{
+    width: 500px;
+    height: 600px;
+    background-color: #F2F4F5;
+    padding: 50px 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-options-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #66B47A;
+    border-radius: 20px;
+}
+.contact-options{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.contact-option{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact-option h3{
+    font-size: 20px;
+}
+.contact-options-text{
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.contact p{
+    color: #878b8b;
+    margin: 0;
+
+}
+.contact-section-h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.input-text{
+    border: 1px solid #c4c5c5;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 30px;
+
+}
+.input-message{
+    height: 80px;
+}
+.b-form{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    width: 40%;
+    background-color: #66B47A;
+    text-align: center;
+    border-radius: 10px;
+}
+/*---------FOOTER---------------*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.footer-section1{
+    background-color: #F2F4F5;
+    padding: 30px 0 30px 15%;
+
+}
+.footer-section2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    background-color: #EEEFF0 ;
+}
+.footer-section2-direction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.footer-section2-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-section3{
+    text-align: center;
+    padding-bottom:70px ;
+    padding-top: 50px;
+    background-color: #EEEFF0 ;
+
+}
+.footer-a-style{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-p-style{
+    font-weight: bold;
+}
+.footer-section2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-section2-1 p{
+    margin: 0;
+}
+
+
+
+/*------------------REsponsive------------------*/
+@media only screen and (max-width: 1494px){
+    .triangle2{
+        border-bottom: 15rem solid transparent;
+        border-right: 15rem solid #fff;
+    }
+}
+@media only screen and (max-width: 1291px){
+    .triangle2{
+        border-bottom: 12rem solid transparent;
+        border-right: 12rem solid #fff;
+    }
+}
+@media only screen and (max-width: 921px){
+    .triangle2{
+        border-bottom: 9rem solid transparent;
+        border-right: 9rem solid #fff;
+    }
+}
+@media only screen and (max-width: 960px){
+    .triangle2{
+        border-bottom: 9rem solid transparent;
+        border-right: 9rem solid #fff;
+    }
+    .section-option-IYV img{
+        width: 30vw;
+    }
+}
+@media only screen and (max-width: 680px){
+    .triangle2{
+        border-bottom: 6rem solid transparent;
+        border-right: 6rem solid #fff;
+    }
+    .text-free{
+        position: absolute;
+        top: 13%;
+        right: 2%;
+    }
+    .section-option-IYV-text{
+        font-size: 6vw;
+    }
+}
+@media only screen and (max-width: 490px){
+    .triangle2{
+        border-bottom: 5rem solid transparent;
+        border-right: 5rem solid #fff;
+    }
+}
+@media only screen and (max-width: 335px){
+    .triangle2{
+        border-bottom: 4rem solid transparent;
+        border-right: 4rem solid #fff;
+    }
+    .text-free{
+        position: absolute;
+        top: 6%;
+        right: 3%;
+    }
+}
